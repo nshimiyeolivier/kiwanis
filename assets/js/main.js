@@ -13,9 +13,9 @@ $(document).ready(function() {
   
   //Scroll Menu
 	$(window).on('scroll', function(){
-		if( $(window).scrollTop()>600 ){
+		if( $(window).scrollTop()>160 ){
 			$('.header-top .header-fixed-wrapper').addClass('navbar-fixed-top animated fadeInDown');
-			
+
 		} else {
 			$('.header-top .header-fixed-wrapper').removeClass('navbar-fixed-top animated fadeInDown');
 		}

@@ -10,7 +10,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="assets/images/logo.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo_kiwanis.png" type="image/x-icon">
 
     <title> Kiwanis Borinage Mons </title>
 
@@ -41,7 +41,3 @@
     <link href="assets/css/popup.css" rel="stylesheet" type="text/css">
 
   </head>
-
-
-
-    <?php include('partials/_flash.php'); ?>

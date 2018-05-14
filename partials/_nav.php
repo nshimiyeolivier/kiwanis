@@ -16,7 +16,7 @@
                    <div class="col-md-3 col-12 membres">
 
                          <ul>
-                           <a href="#section-abonner" title="Abonnement au niews letters"> S'abonner </a>
+                           <a href="abonnement.php" title="Abonnement au niews letters"> S'abonner </a>
 
                            <li><a href="#section-six" title="Identification"> S'identifier</a></li>
 
@@ -36,7 +36,7 @@
 
                            <h1>
 
-                               <a href="#headere-top" title="Logo kiwanis"><img src="assets/images/logo_kiwanis.png" alt="Logo Kiwanis" title="Logo Kiwanis"/></a>
+                               <a href="index.php" title="Logo kiwanis"><img src="assets/images/logo_kiwanis.png" alt="Logo Kiwanis" title="Logo Kiwanis"/></a>
 
                            </h1>
 
@@ -69,30 +69,21 @@
 
                                <ul class="nav navbar-nav">
 
-                                   <li class="active"><a href="#headere-top" title="Accueil">Accueil</a></li>
+                                  <li> <a href="index.php" title="Activités"> Accueil </a> </li>
 
-                                   <li><a href="#section-o" title="Histoire"> Histoire </a></li>
+                                   <li><a href="histoire.php" title="Histoire"> Histoire </a></li>
 
-                                   <li class="pmenu"> Activités
+                                   <li><a href="#section-reunions" title="Réunions">Réunions</a></li>
 
-                                     <ul class="submenu">
+                                   <li><a href="evenements.php" title="Agenda / Spectacles"> Evenements </a></li>
 
-                                       <li><a href="#section-three" title="Spectacles"> Spectacles </a></li>
+                                   <li><a href="actions.php" title="Actions"> Actions </a></li>
 
-                                       <li><a href="#section-reunions" title="Réunions"> Réunions </a></li>
+                                   <li><a href="partenaires.php" title="Partenaires"> Partenaires </a></li>
 
-                                     </ul>
-                                   </li>
+                                   <li><a href="medias.php" title="Photos / Videos"> Medias </a></li>
 
-                                   <li><a href="#section-two" title="Actions"> Actions </a></li>
-
-                                   <li><a href="#section-four" title="Partenaires"> Partenaires </a></li>
-
-                                   <li><a href="#section-gallery" title="Album photos"> Album photos </a></li>
-
-                                   <li><a href="#section-videos" title="Videos"> Videos </a></li>
-
-                                   <li><a href="#section-five" title="Contact"> Contact </a></li>
+                                   <li><a href="contact.php" title="Contact"> Contact </a></li>
 
 
                                </ul>
@@ -110,38 +101,3 @@
                  </div>
 
            </div>
-
-           <!-- banner Text -->
-
-                 <section class="text-center">
-
-                    <h2>Kiwanis Borinage Mons</h2>
-
-                    <p>Au serviceses des enfants défavorisés</p>
-
-
-                     <a class="popup-vimeo video-button" href="assets/videos/Bourse entomologique de mons 2013 - YouTube.webm"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
-
-                     <!-- <a  href="#" class="button-header">Get Strated</a> -->
-
-                </section>
-
-
-
-            <!-- banner Text -->
-
-
-
-            <!-- banner image -->
-
-        	<figure>
-
-            	<div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="assets/images/mons2.jpg"></div>
-
-            </figure>
-
-            <!-- banner image -->
-
-        </header>
-
-    <!-- header -->
