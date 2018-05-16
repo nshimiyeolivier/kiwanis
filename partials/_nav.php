@@ -16,11 +16,21 @@
                    <div class="col-md-3 col-12 membres">
 
                          <ul>
-                           <a href="abonnement.php" title="Abonnement au niews letters"> S'abonner </a>
+                           <!-- faire en sorte que les menus s'enregistre est s'identifier ne soient pas visible au moment ou l'utulisateur est connecté -->
+                         <?php if(is_logged_in() ): ?>
 
-                           <li><a href="#section-six" title="Identification"> S'identifier</a></li>
+                           <a href="logout.php" title="Enregistrement"> Deconnexion </a>
 
-                           <li><a href="register.php" title="Enregistrement"> S'enregistre</a></li>
+
+                         <?php else : ?>
+                            <a href="abonnement.php" title="Abonnement au niews letters"> S'abonner </a>
+
+                           <li><a href="login.php" title="Identification"> S'identifier </a></li>
+
+                           <li><a href="register.php" title="Enregistrement"> S'enregistre </a></li>
+                         <?php endif; ?>
+
+
                          </ul>
 
                    </div>
@@ -69,21 +79,24 @@
 
                                <ul class="nav navbar-nav">
 
-                                  <li> <a href="index.php" title="Activités"> Accueil </a> </li>
+                                  <li class="<?= set_active('index')?>"> <a href="index.php" title="Activités"> Accueil </a> </li>
 
-                                   <li><a href="histoire.php" title="Histoire"> Histoire </a></li>
 
-                                   <li><a href="#section-reunions" title="Réunions">Réunions</a></li>
 
-                                   <li><a href="evenements.php" title="Agenda / Spectacles"> Evenements </a></li>
+                                 <li class="<?= set_active('histoire') ?>"><a href="histoire.php" title="Histoire"> Histoire </a></li>
 
-                                   <li><a href="actions.php" title="Actions"> Actions </a></li>
+                              <?php if(is_logged_in() ): ?>
+                                <li class="<?= set_active('reunions') ?>"><a href="reunions.php" title="Réunions">Réunions</a></li>
+                              <?php endif; ?>
+                                <li class="<?= set_active('evenements') ?>"><a href="evenements.php" title="Agenda / Spectacles"> Evenements </a></li>
 
-                                   <li><a href="partenaires.php" title="Partenaires"> Partenaires </a></li>
+                                   <li class="<?= set_active('actions') ?>"><a href="actions.php" title="Actions"> Actions </a></li>
 
-                                   <li><a href="medias.php" title="Photos / Videos"> Medias </a></li>
+                                   <li class="<?= set_active('partenaires') ?>"><a href="partenaires.php" title="Partenaires"> Partenaires </a></li>
 
-                                   <li><a href="contact.php" title="Contact"> Contact </a></li>
+                                   <li class="<?= set_active('medias') ?>"><a href="medias.php" title="Photos / Videos"> Medias </a></li>
+
+                                   <li class="<?= set_active('contact') ?>"><a href="contact.php" title="Contact"> Contact </a></li>
 
 
                                </ul>

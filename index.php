@@ -1,5 +1,13 @@
 
-<?php include('views/index.views.php'); ?>
+<?php
+
+session_start();
+
+require('includes/functions.php');
+
+include('views/index.views.php');
+
+?>
 
 
 <!-- image-content -->

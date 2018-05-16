@@ -47,7 +47,7 @@
           <label class="control-label" for="password_confirm">Confirmation du mot de passe: </label>
           <input data-parsley-equalto="#password" data-parsley-trigger="keypress" type="password" class="form-control" id="password_confirm" name="password_confirm" requirer="required"/>
         </div>
-        <input type="submit" class="btn btn-primary"  value="Register" name="register" id="register">
+        <input type="submit" class="btn btn-primary"  value="S'enregistrer" name="register" id="register">
 
       </form>
     </div>

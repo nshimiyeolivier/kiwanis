@@ -2,8 +2,11 @@
 
 // database credentials
   define('DB_HOST', 'localhost');
+  // define('DB_NAME', 'id5155105_kiwanis');
   define('DB_NAME', 'id5155105_users');
+  // define('DB_USERNAME', 'id5155105_admin');
   define('DB_USERNAME', 'root');
+  // define('DB_PASSWORD', '123456');
   define('DB_PASSWORD', '');
 
 // connexion to the databases

@@ -134,27 +134,6 @@
 
         <!--slider pan -->
 
-        <!-- video -->
-
-        <div class="video-pan text-center">
-
-          <a id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=jnLSYfObARA&feature=youtu.be',containment:'.bg-container-youtube', showControls:false,autoPlay:true, loop:true, startAt:0, opacity:1, addRaster:false, quality:'large'}"></a>
-
-
-
-            <!-- 5.0 background container autoPlay:true,  -->
-
-            <div class="bg-container-youtube"></div>
-
-          <header><a class="popup-vimeo video-button" href="assets/videos/Mes achats de mons - YouTube.webm"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
-
-            <h4>Une de nos videos</h4>
-
-            </header>
-
-        </div>
-
-        <!-- video -->
 
 
         <?php include('partials/_footer.php'); ?>

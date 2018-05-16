@@ -23,13 +23,13 @@ if(!empty($_GET['p']) && is_already_in_use('pseudo', $_GET['p'], 'users') && !em
       $q = $db->prepare("UPDATE users SET active = '1' WHERE pseudo = ?");
       $q->execute([$pseudo]);
 
-      set_flash('Your account has been activated!');
+      set_flash('Votre compte à été activé!');
 
       redirect('login.php');
 
     }else{
 
-      set_flash('Invalid security token', 'danger');
+      set_flash('Token de securite invalide', 'danger');
       redirect('index.php');
 
     }
