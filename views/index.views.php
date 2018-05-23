@@ -10,7 +10,7 @@
 
          <h2>Kiwanis Borinage Mons</h2>
 
-         <p>Au serviceses des enfants défavorisés</p>
+         <p>Au service des enfants défavorisés</p>
 
 
           <a class="popup-vimeo video-button" href="assets/videos/Bourse entomologique de mons 2013 - YouTube.webm"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
@@ -69,7 +69,6 @@
                     <header>
 
                         <h5>MONS MAG</h5>
-
 
                     </header>
 

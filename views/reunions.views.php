@@ -9,8 +9,6 @@
 
                   <h2> Réunions: 2e et 4e mardis, 19h30 </h2>
 
-
-
                    <h4> <b> Hôtel DREAM, Rue de la Grande Triperie, 17 - 7000 MONS </b> </h4>
 
                   Tel 065/32.97.20 -  <a href="http://www.dream-mons.be/" target="_blank"> www.dream-mons.be </a> <br />
@@ -54,8 +52,6 @@
 
               <a id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=jnLSYfObARA&feature=youtu.be',containment:'.bg-container-youtube', showControls:false,autoPlay:true, loop:true, startAt:0, opacity:1, addRaster:false, quality:'large'}"></a>
 
-
-
                 <!-- 5.0 background container autoPlay:true,  -->
 
                 <div class="bg-container-youtube"></div>
@@ -70,8 +66,5 @@
 
             <!-- video -->
           </section>
-
-
-
 
 <?php include('partials/_footer.php'); ?>

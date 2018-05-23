@@ -466,11 +466,11 @@ transform:scale(1.1); opacity:0.8}
 
 .subscribe-form input[type="email"]{ border-radius:3px; background-color:transparent; border:1px solid #FFF; outline:none; height:58px; color:#FFF; font-size:16px; line-height:18px; padding-left:33px; padding-right:193px; width:100%;}
 
-.section-five form input::-webkit-input-placeholder { color:#FFF; }
+.section-five form input::-webkit-input-placeholder { color:#9c9999; }
 
-.section-five form input::-moz-placeholder { color:#FFF; }
+.section-five form input::-moz-placeholder { color:#9c9999; }
 
-.section-five form input:-ms-input-placeholder { color:#FFF; }
+.section-five form input:-ms-input-placeholder { color:#9c9999; }
 
 .section-five form input:-moz-placeholder { color:#FFF; }
 

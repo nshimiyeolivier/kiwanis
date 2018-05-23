@@ -12,9 +12,9 @@
 
        <header role="title-page" class="text-center">
 
-            <h4>Nous contacte</h4>
+            <h4> Nous contacter </h4>
 
-            <h2>Avez vous des questions? Nous somme à votre disposition<br/>pour vous repondre!</h2>
+            <h2> Avez-vous des questions ? Nous sommes à votre disposition<br/>pour vous répondre ! </h2>
 
         </header>
 
